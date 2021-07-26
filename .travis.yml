@@ -9,3 +9,6 @@ before_install:
 
 after_success:
   - echo "success??!!!! WOWW"
+
+after_failure:
+  - echo "Why I'm failed? I can accept it!!"
