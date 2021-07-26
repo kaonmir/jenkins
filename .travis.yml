@@ -1,3 +1,11 @@
 language: node_js
 node_js:
   - "16"
+
+before_install:
+  - npm install
+
+# npm test는 자동이다.
+
+after_success:
+  - echo "success??!!!! WOWW"
