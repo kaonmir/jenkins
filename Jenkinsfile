@@ -1,8 +1,8 @@
 node {
     def hello = 'Hello jojoldu' // 변수선언
     stage ('npm test') {
-        npm i
-        npm test
+        sh "npm install"
+        sh "npm test"
     }
 
     stage ('print') {
