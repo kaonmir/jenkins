@@ -2,13 +2,13 @@ language: node_js
 node_js:
   - "16"
 
-before_install:
-  - npm install
-
-# npm test는 자동이다.
-
 after_success:
   - echo "success??!!!! WOWW"
 
 after_failure:
   - echo "Why I'm failed? I can accept it!!"
+
+before_deploy:
+  - echo "This step is before_deploy"
+# deploy:
+#   - echo "Does before_deploy work well without me?"

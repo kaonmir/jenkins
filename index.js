@@ -1,1 +1,1 @@
-console.log("I'm alive!! on Travis CI")
+console.log("I'm alive!! on Travis CI");
