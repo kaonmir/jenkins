@@ -1,7 +1,8 @@
 node {
     def hello = 'Hello jojoldu' // 변수선언
-    stage ('clone') {
-        git 'https://github.com/jojoldu/jenkins-pipeline.git' // git clone
+    stage ('npm test') {
+        npm i
+        npm test
     }
 
     stage ('print') {
