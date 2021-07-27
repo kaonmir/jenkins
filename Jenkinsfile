@@ -9,7 +9,7 @@ ls'''
       }
     }
 
-    stage('') {
+    stage('error') {
       parallel {
         stage('hj') {
           agent any
@@ -25,6 +25,35 @@ ls'''
           }
         }
 
+      }
+    }
+
+    stage('errors') {
+      parallel {
+        stage('jhvhj') {
+          steps {
+            echo ' jl'
+          }
+        }
+
+        stage('net') {
+          steps {
+            echo 'hgi'
+          }
+        }
+
+        stage('bae') {
+          steps {
+            echo 'ent'
+          }
+        }
+
+      }
+    }
+
+    stage('fymsmf') {
+      steps {
+        echo 'agnadg'
       }
     }
 
