@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label '16.5.0'
+      label 'node'
     }
 
   }
